@@ -10,7 +10,7 @@ spec:
   - host: app1.sudheerdevops.com
     http:
       paths:
-      - path: /
+      - path: /app1
         pathType: Prefix
         backend:
           service:
@@ -20,7 +20,7 @@ spec:
   - host: app2.sudheerdevops.com
     http:
       paths:
-      - path: /
+      - path: /app2
         pathType: Prefix
         backend:
           service:
